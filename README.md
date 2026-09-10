@@ -27,6 +27,14 @@ Este proyecto reúne varias prácticas enfocadas en el uso de HTML5 semántico, 
 - Usar elementos semánticos de HTML5.
 - Explorar validaciones nativas en formularios.
 
+## Tecnología utilizada
+
+- HTML5
+- CSS3
+- Navegador web moderno
+- Visual Studio Code
+- Git / GitHub
+
 ## Visualización
 
 Abre cualquiera de los archivos `.html` en un navegador para ver cada ejercicio.
