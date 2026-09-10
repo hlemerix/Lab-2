@@ -1,0 +1,47 @@
+.tabla {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 600px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla th {
+    padding: 10px;
+    font-size: 15px;
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Fila 1 (encabezado, clase modo1 en <tr>) */
+.tabla .modo1 td {
+    padding: 10px;
+    background-color: #caf0f8;
+    color: #023e8a;
+    font-weight: bold;
+    border-bottom: 1px solid #90e0ef;
+}
+
+/* Fila 2 (clase modo2) */
+.tabla .modo2 {
+    background-color: #fff3b0;
+}
+
+.tabla .modo2 td {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #fff3b0;
+    color: #7f5539;
+    padding: 10px;
+    border-bottom: 1px solid #ffe066;
+}
+
+.tabla tr:hover td {
+    filter: brightness(0.95);
+    cursor: pointer;
+}
