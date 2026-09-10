@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.tabla-viaje {
+    border-collapse: collapse;
+    width: 650px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabla-viaje caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4361ee, #7209b7);
+    padding: 14px;
+}
+
+.tabla-viaje th,
+.tabla-viaje td {
+    padding: 10px 14px;
+    text-align: right;
+}
+
+/* Encabezado de columnas */
+.tabla-viaje tr:nth-child(2) th {
+    background-color: #3a0ca3;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* Fila con el nombre de la ciudad */
+.ciudad {
+    background: linear-gradient(90deg, #f72585, #b5179e);
+    color: #ffffff;
+    text-align: left !important;
+    font-size: 15px;
+    padding: 8px 14px;
+}
+
+/* Filas normales de datos */
+.tabla-viaje tr td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0f0;
+}
+
+.tabla-viaje tr:hover td {
+    background-color: #eef0ff;
+}
+
+/* Fila de subtotales */
+.subtotal td,
+.subtotal th {
+    background-color: #ffe5ec !important;
+    font-weight: bold;
+    color: #7209b7;
+    border-top: 2px solid #f72585;
+}
