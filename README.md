@@ -39,6 +39,14 @@ Este proyecto reúne varias prácticas enfocadas en el uso de HTML5 semántico, 
 
 Abre cualquiera de los archivos `.html` en un navegador para ver cada ejercicio.
 
+### Tabla con estilos CSS
+
+![Vista previa de la tabla de ventas](imagenes/README-tabla.png)
+
+### Secciones semánticas de HTML5
+
+![Vista previa de la página con secciones semánticas](imagenes/README-secciones.png)
+
 ## Repositorio
 
 - GitHub: https://github.com/hlemerix/Lab-2
