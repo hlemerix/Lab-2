@@ -1,3 +1,11 @@
+# Universidad Tecnológica de Panamá
+# Facultad de Ingeniería de Sistemas Computacionales
+# Licenciatura en Ciberseguridad
+# Práctica: Práctica sobre herencia
+-**Estudiante:** Hanna Licona
+-**Grupo:** 1S3122
+-**Asignatura:** Desarrollo Web
+-**Profesor:** Irina Fong
 # Lab-2
 
 Repositorio con los ejercicios del Laboratorio 2 de HTML5 y CSS3.
